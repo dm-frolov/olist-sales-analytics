@@ -33,6 +33,12 @@
 
 Эти результаты описывают наблюдаемые различия; сами по себе они не доказывают причинно-следственные связи.
 
+## Дашборд Power BI
+
+- **[Посмотреть готовый отчёт (PDF)](dashboard/Olist_Sales_Analytics.pdf)** — доступен без установки Power BI.
+- **[Скачать проект Power BI (.pbix)](dashboard/Olist_Sales_Analytics.pbix)** — редактируемый интерактивный отчёт.
+- **[Модель данных и формулы DAX](docs/POWER_BI.md)** — описание связей и показателей.
+
 ## Структура
 ```text
 sql/
@@ -45,9 +51,11 @@ sql/
   07_payment_methods.sql
 docs/
   POWER_BI.md
+dashboard/
+  Olist_Sales_Analytics.pbix
+  Olist_Sales_Analytics.pdf
 ```
 
-Файлы Power BI и снимок отчёта будут добавлены отдельно после проверки загрузки последней версии.
 
 ## Как воспроизвести
 1. Установить PostgreSQL, создать пустую базу `olist_analytics`.
